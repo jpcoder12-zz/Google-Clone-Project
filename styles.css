@@ -1,3 +1,41 @@
 * {
-    background-color: blue;
+    font-family: "Helvetica" "Arial" sans-serif;
+}
+.search-logo {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.search-logo img {
+    width: 150px;
+}
+#searchFormInput, #searchFormButton{
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    font-size: .8em;
+    margin-top: 20px;
+    color: #5b5b5b;
+    border-radius: 20px;
+    border-width: 1px;
+}
+button {
+    margin-top: 20px;
+    font-size: .8em;
+    width: 80px;
+    height: 33px;
+    color: white;
+    display: block;
+    background-color: #4285f3;
+    border-color: #1a5fd0;
+    border-radius: 3px;
+    border-style: solid;
+}
+
+button:hover{
+    background-color: #5998ff;
 }
