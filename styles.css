@@ -1,16 +1,33 @@
 * {
-    font-family: "Helvetica" "Arial" sans-serif;
+    font-family: "Helvetica", "Arial", sans-serif;
 }
 .search-logo {
     margin-top: 100px;
     display: flex;
     justify-content: center;
 }
-.search-logo img {
+img {
     width: 150px;
 }
+
+li {
+    display: inline;
+    justify-content: space-between;
+}
+
+#header {
+    display: inline;
+}
+
 #searchFormInput, #searchFormButton{
     display: flex;
+    justify-content: center;
+}
+
+#searchResults {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: inline-block;
     justify-content: center;
 }
 
@@ -22,6 +39,7 @@ input {
     color: #5b5b5b;
     border-radius: 20px;
     border-width: 1px;
+    border-style: solid;
 }
 button {
     margin-top: 20px;
@@ -31,9 +49,8 @@ button {
     color: white;
     display: block;
     background-color: #4285f3;
-    border-color: #1a5fd0;
     border-radius: 3px;
-    border-style: solid;
+    border: 1px solid #1a5fd0;
 }
 
 button:hover{
