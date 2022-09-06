@@ -1,58 +1,45 @@
+/* Sizes
+
 * {
     font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
 }
+
+/* Element Sizes */
+
 .search-logo {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-}
-img {
-    width: 150px;
+    padding-top: 100px; /* Space above the logo: 100px */
+    width: 150px; /* Width of the logo: 150px */
 }
 
-li {
-    display: inline;
-    justify-content: space-between;
-}
-
-#header {
-    display: inline;
-}
-
-#searchFormInput, #searchFormButton{
-    display: flex;
-    justify-content: center;
-}
-
-#searchResults {
-    margin-left: 20%;
-    margin-right: 20%;
-    display: inline-block;
-    justify-content: center;
-}
-
-input {
-    width: 400px;
-    height: 40px;
-    font-size: .8em;
-    margin-top: 20px;
-    color: #5b5b5b;
-    border-radius: 20px;
-    border-width: 1px;
+form input {
+    border-radius: 18px;
     border-style: solid;
-}
-button {
-    margin-top: 20px;
-    font-size: .8em;
-    width: 80px;
     height: 33px;
-    color: white;
-    display: block;
-    background-color: #4285f3;
-    border-radius: 3px;
-    border: 1px solid #1a5fd0;
+    margin-top: 20px; /* Space above the input: 20px */
+    width: 400px; /* Width of the input field: 400px */
 }
 
-button:hover{
-    background-color: #5998ff;
+form button {
+    border-radius: 3px;
+    border-style: solid;
+    color: white;
+    height: 40px;
+    margin-top: 20px; /* Space above the button: 20px */
+    width: 80px; /* Width of the "Search" button: ~80px (automatic) */
+}
+
+/* Colors */
+form input {
+    border-color: #c4c4c4; /* Color of the input border: c4c4c4 */
+    color: #5b5b5b /* Color of the text in the input: 5b5b5b */
+}
+
+form button {
+    background-color: #4285f3; /* Color of the button (background): 4285f3 */
+    border-color: #1a5fd0; /* Color of the button border: 1a5fd0 */
+}
+
+form button:hover {
+    background-color: #5998ff /* Color of the button on hover: 5998ff */
 }
