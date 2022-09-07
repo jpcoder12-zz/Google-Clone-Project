@@ -29,11 +29,10 @@ form button {
     border-style: solid;
     color: white;
     height: 40px;
-    font-size: 18px;
     margin-top: 20px; /* Space above the button: 20px */
     padding-top: 6px;
     padding-bottom: 6px;
-    width: auto;
+    width: 80px;
     /* Width of the "Search" button: ~80px (automatic) */
 }
 
