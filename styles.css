@@ -69,6 +69,10 @@ form input {
 form button {
     background-color: #4285f3; /* Color of the button (background): 4285f3 */
     border-color: #1a5fd0; /* Color of the button border: 1a5fd0 */
+    
+}
+#main button {
+    margin-top: 20px;
 }
 
 form button:hover {
