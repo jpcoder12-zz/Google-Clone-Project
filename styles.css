@@ -2,20 +2,26 @@
     font-family: "Helvetica", "Arial", sans-serif;
     font-size: 14px;
 }
+/* Search Page Container */
+#srchcontainer {
+    text-align: center;
+    margin-top: 15%;
+}
+
 
 /* Element Sizes */
-
-.search-logo {
-    padding-top: 100px; /* Space above the logo: 100px */
-    width: 150px; /* Width of the logo: 150px */
-}
 
 form input {
     border-radius: 18px;
     border-style: solid;
     height: 33px;
-    margin-top: 20px; /* Space above the input: 20px */
+    margin-top: 20px;/* Space above the input: 20px */
+    padding-left: 5px;
     width: 400px; /* Width of the input field: 400px */
+}
+
+#logo {
+    width: 150px;
 }
 
 form button {
@@ -23,8 +29,12 @@ form button {
     border-style: solid;
     color: white;
     height: 40px;
+    font-size: 18px;
     margin-top: 20px; /* Space above the button: 20px */
-    width: 80px; /* Width of the "Search" button: ~80px (automatic) */
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: auto;
+    /* Width of the "Search" button: ~80px (automatic) */
 }
 
 /* Colors */
