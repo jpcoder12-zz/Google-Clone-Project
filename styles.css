@@ -91,15 +91,16 @@ form button:hover {
 /* Results Page Container(s) */
 #header {
     display: grid;
-    grid-template-columns: 15vw 85vw;
+    grid-template-columns: 15% 85%;
     border-bottom: 1px #c4c4c4 solid;
     margin-bottom: 10px;
 }
+
 #search-results {
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 195px;
-    margin-right: 10.5%;
+    margin-left: 280px;
+    margin-right: -280px;
     width: 75%;
 }
 
@@ -110,9 +111,10 @@ form button:hover {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 li a { /* for mini links at the bottom of each search result (section in this case) */
     text-decoration: underline;
+    font-size: 12px;
 }
